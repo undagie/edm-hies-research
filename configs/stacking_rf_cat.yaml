@@ -1,0 +1,71 @@
+# Reviewer-requested post-2024 EDM baseline: RF + CatBoost stacking (LR meta).
+# Identical protocol to configs/default.yaml (12 seeds x 5 stratified folds,
+# same preprocessing and feature interactions); runs only the new method and
+# writes to a separate output root so the canonical artifacts/ stay intact.
+# Merge rows into artifacts/results/results_raw.csv with
+# scripts/merge_stacking_rf_cat.py after the run.
+seed: 42
+seeds: [11, 22, 33, 44, 55, 66, 77, 88, 99, 110, 121, 132]
+n_splits: 5
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  use_synthetic_if_missing: false
+  dataset_order: ["uci_student", "uci_dropout_success", "xapi"]
+  enable_feature_interactions: true
+  max_feature_interactions: 4
+
+fairness:
+  primary_sensitive_attribute: gender
+  secondary_sensitive_attributes: ["ses_proxy"]
+
+metrics:
+  performance: ["f1_macro", "mcc", "pr_auc", "balanced_accuracy"]
+  fairness: ["demographic_parity_diff", "equal_opportunity_diff"]
+
+methods:
+  - stacking_rf_catboost
+
+optimization:
+  objective_weights:
+    f1_macro: 0.88
+    mcc: 0.50
+    dp_diff: 0.03
+    eod_diff: 0.02
+  threshold_grid: [0.4, 0.45, 0.5, 0.55]
+  enable_threshold_optimization: true
+  threshold_validation_fraction: 0.2
+  max_dp_increase: 0.06
+  max_eod_increase: 0.06
+  threshold_methods:
+    [
+      "xgboost",
+      "hies",
+    ]
+  tradeoff_baseline_method: xgboost
+  tradeoff_target_method: hies
+  method_params:
+    xgboost:
+      n_estimators: 260
+      max_depth: 4
+      learning_rate: 0.04
+    stacking_rf_catboost:
+      rf_n_estimators: 600
+      cat_iterations: 400
+      cv: 5
+      meta_C: 1.0
+
+outputs:
+  root: artifacts_stack_rfcat
+  results_dir: artifacts_stack_rfcat/results
+  tables_dir: artifacts_stack_rfcat/tables
+  figures_dir: artifacts_stack_rfcat/figures
+  diagrams_dir: artifacts_stack_rfcat/diagrams
+  manifests_dir: artifacts_stack_rfcat/manifests
+  text_dir: artifacts_stack_rfcat/text
+  logs_dir: artifacts_stack_rfcat/logs
+  paper_file: artifacts_stack_rfcat/text/auto_results.md
+  mlflow:
+    tracking_uri: sqlite:///artifacts_stack_rfcat/mlflow.db
+    experiment_name: edm-stacking-rf-catboost

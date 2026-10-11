@@ -1,0 +1,166 @@
+seed: 42
+seeds: [11, 22, 33, 44, 55, 66, 77, 88, 99, 110, 121, 132]
+n_splits: 5
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  use_synthetic_if_missing: false
+  dataset_order: ["uci_student", "uci_dropout_success", "xapi"]
+  enable_feature_interactions: true
+  max_feature_interactions: 4
+
+fairness:
+  primary_sensitive_attribute: gender
+  secondary_sensitive_attributes: ["ses_proxy"]
+
+metrics:
+  performance: ["f1_macro", "mcc", "pr_auc", "balanced_accuracy"]
+  fairness: ["demographic_parity_diff", "equal_opportunity_diff"]
+
+# Method IDs match manuscript nomenclature; see ``src/reporting/method_names.py``.
+# Calibrated XGBoost is intentionally excluded from the main comparison:
+# HIES integrates the same sigmoid-Platt calibrated XGBoost as one of its five
+# base learners (``xgb_spw`` wrapped in ``_AutoCalibratedEstimator``). Listing
+# Calibrated XGBoost as a separate top-level baseline therefore double-counts
+# a component already inside HIES (this follows the convention of modern
+# AutoML / tabular SOTA benchmarks: AutoGluon, TabPFN, NODE, FT-Transformer).
+methods:
+  - logistic_regression
+  - xgboost
+  - lightgbm
+  - catboost
+  - extra_trees
+  - random_forest
+  - fairlearn_equalized_odds_xgb
+  - tabpfn
+  - voting
+  - stacking
+  - hies
+
+optimization:
+  objective_weights:
+    f1_macro: 0.88
+    mcc: 0.50
+    dp_diff: 0.03
+    eod_diff: 0.02
+  threshold_grid: [0.4, 0.45, 0.5, 0.55]
+  enable_threshold_optimization: true
+  threshold_validation_fraction: 0.2
+  max_dp_increase: 0.06
+  max_eod_increase: 0.06
+  threshold_methods:
+    [
+      "xgboost",
+      "hies",
+    ]
+  tradeoff_baseline_method: xgboost
+  tradeoff_target_method: hies
+  method_params:
+    logistic_regression: {}
+    lightgbm:
+      n_estimators: 260
+      max_depth: 6
+      learning_rate: 0.04
+    fairlearn_equalized_odds_xgb:
+      n_estimators: 260
+      max_depth: 4
+      learning_rate: 0.04
+    xgboost:
+      n_estimators: 260
+      max_depth: 4
+      learning_rate: 0.04
+    catboost:
+      iterations: 400
+      depth: 6
+      learning_rate: 0.05
+      l2_leaf_reg: 3.0
+    extra_trees:
+      n_estimators: 600
+      max_depth: null
+    random_forest:
+      n_estimators: 600
+      max_depth: null
+    tabpfn:
+      max_n_train: 2000
+    voting:
+      cat_iterations: 400
+    stacking:
+      cat_iterations: 400
+      cv: 5
+      meta_C: 1.0
+    hies:
+      auto_config:
+        enabled: true
+        imbalance_split: 2.5
+        imbalanced_mcc_boost: 0.0
+        n_large_split: 1500
+        feature_dim_split: 70
+        wide:
+          fusion: auto
+        narrow: {}
+        large:
+          mcc_weight: 0.6
+          prune_delta: 0.01
+          temperature: 0.05
+          threshold_grid: [0.43, 0.46, 0.50, 0.54, 0.57]
+          fusion: weighted
+        small:
+          mcc_weight: 0.6
+          prune_delta: 0.05
+          temperature: 0.07
+          threshold_grid: [0.40, 0.43, 0.45, 0.47, 0.50, 0.53, 0.55]
+          fusion: weighted
+      margin_floor: 0.03
+      min_keep: 3
+      cv_splits: 5
+      calibration_cv: 5
+      calibration_method: sigmoid
+      n_train_threshold: 2000
+      tune_threshold: false
+      threshold_clip: [0.30, 0.70]
+      fusion: weighted
+      stack_meta_C: 1.0
+      stack_meta_cv: 5
+      stack_select_margin: 0.003
+      include_catboost: true
+      recalibrate_fusion: false
+      recalibration_method: auto
+      recalibration_cv: 5
+      fairness_threshold_penalty: 0.0
+      objective_weights:
+        f1_macro: 0.88
+        mcc: 0.50
+        dp_diff: 0.03
+        eod_diff: 0.02
+      xgb:
+        n_estimators: 260
+        max_depth: 4
+        learning_rate: 0.04
+      rf:
+        n_estimators: 400
+      hgb:
+        max_iter: 260
+        max_depth: 6
+      lgbm:
+        n_estimators: 260
+        max_depth: 6
+        learning_rate: 0.04
+      cat:
+        iterations: 400
+        depth: 6
+        learning_rate: 0.05
+        l2_leaf_reg: 3.0
+outputs:
+  root: artifacts
+  results_dir: artifacts/results
+  tables_dir: artifacts/tables
+  figures_dir: artifacts/figures
+  diagrams_dir: artifacts/diagrams
+  manifests_dir: artifacts/manifests
+  text_dir: artifacts/text
+  logs_dir: artifacts/logs
+  paper_file: artifacts/text/auto_results.md
+  mlflow:
+    tracking_uri: sqlite:///artifacts/mlflow.db
+    experiment_name: edm-tabular-benchmark

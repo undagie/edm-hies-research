@@ -1,0 +1,8 @@
+table_id,purpose,source_csv,key_columns
+table_main_results,"Primary performance comparison per (dataset, method).",artifacts/results/results_summary.csv,"dataset,method,f1_macro_mean,mcc_mean"
+table_fairness_results,"Per-(dataset, method) demographic-parity and equal-opportunity gaps.",artifacts/results/results_raw.csv,"dataset,method,dp_diff_mean,eod_diff_mean"
+table_ablation,Reserved ablation slot (populated by external ablation scripts).,artifacts/results/results_summary.csv,"dataset,comparison,delta_f1_macro,delta_dp_diff"
+table_significance,Paired Wilcoxon vs xgboost baseline with Holm and BH corrections.,artifacts/results/results_raw.csv,"dataset,method,mean_delta_f1_macro,p_value"
+table_tradeoff,"Per-(seed, fold) paired delta in F1, DP, EoD between target and baseline.",artifacts/results/results_raw.csv,"dataset,paired_samples,delta_f1_macro_mean,delta_dp_diff_mean,joint_win_rate"
+table_guardrail,Per-method pass rate for the fairness guardrail relative to the xgboost baseline.,artifacts/results/results_raw.csv,"dataset,method,guardrail_pass_rate,dp_diff_mean,eod_diff_mean"
+table_best_per_dataset,"Best method per dataset by macro-F1, tie-broken on joint_score / MCC / PR-AUC.",artifacts/results/results_summary.csv,"dataset,method,f1_macro_mean"

@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+num__Curricular units 2nd sem (approved),1.2151852
+num__Tuition fees up to date,0.4156649
+num__Curricular units 1st sem (approved),0.2868442
+num__Age at enrollment,0.24282596
+num__Curricular units 2nd sem (grade),0.18426602
+num__Curricular units 1st sem (grade),0.16740847
+num__Curricular units 2nd sem (enrolled),0.15857089
+num__Course,0.15031412
+num__Scholarship holder,0.13192867
+num__Displaced,0.12498122
+num__Admission grade,0.1128604
+num__Curricular units 2nd sem (evaluations),0.11051311
+num__Father's occupation,0.10626804
+num__Debtor,0.10280958
+num__Unemployment rate,0.10171697

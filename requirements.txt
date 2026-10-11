@@ -1,0 +1,57 @@
+# Environment of record for the reported results.
+#
+# The libraries whose versions are stated in the manuscript (Section 3.6) are
+# constrained to the exact minor series that produced the numbers in
+# artifacts/. Reproducing the paper requires these series; newer releases of
+# scikit-learn, XGBoost and Fairlearn change defaults that shift the reported
+# metrics in the third decimal.
+#
+# Interpreter: Python 3.11.9
+# See artifacts/manifests/PROVENANCE.md for the run-by-run record.
+
+# Core scientific stack
+numpy>=1.24,<3.0
+pandas>=2.0,<3.0
+scipy>=1.11,<2.0
+scikit-learn>=1.4,<1.5          # manuscript: scikit-learn 1.4
+statsmodels>=0.14,<1.0
+
+# Boosted tree learners
+xgboost>=2.0,<2.1               # manuscript: XGBoost 2.0
+lightgbm>=4.3,<4.4              # manuscript: LightGBM 4.3
+catboost>=1.2,<1.3              # manuscript: CatBoost 1.2
+
+# Foundation tabular model (TabPFN v2 — local checkpoint, no auth required;
+# v7+ requires online authentication with Prior Labs and is unsuitable for
+# batch benchmarking).
+tabpfn>=2.0,<2.1                # manuscript: TabPFN 2.0
+
+# Sampling utilities (used for SMOTE-style baselines in robustness ablations)
+imbalanced-learn>=0.12,<1.0
+
+# Fairness baseline (Fairlearn ThresholdOptimizer for Equalized Odds)
+fairlearn>=0.10,<0.11           # manuscript: Fairlearn 0.10
+
+# Statistical post-hoc tests (Friedman + Nemenyi, scikit-posthocs)
+scikit-posthocs>=0.9,<1.0
+
+# Model interpretability (SHAP for top-feature analysis on tree bases)
+shap>=0.45,<1.0
+
+# Visualization
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+
+# Experiment tracking
+mlflow>=2.14,<4.0
+
+# Configuration
+pyyaml>=6.0,<7.0
+
+# Testing
+pytest>=8.0,<10.0
+
+# Note: PyTorch is an implicit dependency of TabPFN. Install a CUDA build
+# manually if GPU acceleration is desired (TabPFN otherwise falls back to
+# CPU). Example for CUDA 12.1:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121

@@ -1,0 +1,55 @@
+---
+title: "HIES — Heterogeneous Imbalance-Adaptive Ensemble Stacking with OOF skill-pruning, per-sample softmax weighting, and multi-objective threshold tuning"
+---
+flowchart LR
+
+    %% ===== Nodes =====
+    A["Training fold<br/>(X, y)"]
+    B["Preprocessor<br/>(impute + OHE)"]
+
+    XGB["XGBoost<br/>+sigmoid cal."]
+    RF["Random Forest<br/>+sigmoid cal."]
+    HGB["HistGB<br/>+sigmoid cal."]
+    LGB["LightGBM<br/>+sigmoid cal."]
+
+    OOF["5-fold<br/>cross_val_predict<br/>&rarr; p_b^OOF"]
+
+    PR["Skill-based<br/>pruning (&delta;)"]
+    WT["Per-sample<br/>softmax weights<br/>(margin &times; global)"]
+    TH["Threshold<br/>tuning (joint J)"]
+
+    RF2["Refit kept<br/>bases on full<br/>training fold"]
+    OUT["Test fold<br/>prediction<br/>(p̂, ŷ at θ*)"]
+
+    %% ===== Edges =====
+    A --> B
+    B --> XGB
+    B --> RF
+    B --> HGB
+    B --> LGB
+
+    XGB --> OOF
+    RF  --> OOF
+    HGB --> OOF
+    LGB --> OOF
+
+    OOF --> PR
+    OOF --> WT
+    OOF --> TH
+
+    PR --> RF2
+    WT --> RF2
+    TH --> RF2
+
+    RF2 --> OUT
+
+    %% ===== Styling =====
+    classDef yellow fill:#FFF4C2,stroke:#C9A227,stroke-width:1px,color:#000;
+    classDef blue   fill:#CFE3FA,stroke:#3D7EC9,stroke-width:1px,color:#000;
+    classDef green  fill:#CFE9D4,stroke:#3B9A56,stroke-width:1px,color:#000;
+    classDef pink   fill:#F7CFD3,stroke:#C95A66,stroke-width:1px,color:#000;
+
+    class A,B,RF2 yellow;
+    class XGB,RF,HGB,LGB blue;
+    class OOF,PR,WT,TH green;
+    class OUT pink;

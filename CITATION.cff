@@ -1,0 +1,69 @@
+# Citation file format. See https://citation-file-format.github.io/
+cff-version: 1.2.0
+title: >-
+  Heterogeneous Imbalance-Adaptive Ensemble for Robust Prediction of Students
+  at Risk on Tabular Educational Data
+message: >-
+  If you use this software or our experimental protocol, please cite this work.
+type: software
+authors:
+  - given-names: Muhammad Iqbal
+    family-names: Firdaus
+    email: m.iqbalfirdaus@uniska-bjm.ac.id
+    affiliation: Faculty of Information Technology, Islamic University of Kalimantan Muhammad Arsyad Al Banjari, Banjarmasin, Indonesia
+  - given-names: Muhammad Edya
+    family-names: Rosadi
+    email: edya.tridharma@gmail.com
+    affiliation: Faculty of Information Technology, Islamic University of Kalimantan Muhammad Arsyad Al Banjari, Banjarmasin, Indonesia
+  - given-names: Dian
+    family-names: Agustini
+    affiliation: Faculty of Information Technology, Islamic University of Kalimantan Muhammad Arsyad Al Banjari, Banjarmasin, Indonesia
+  - given-names: M
+    family-names: Muflih
+    affiliation: Faculty of Information Technology, Islamic University of Kalimantan Muhammad Arsyad Al Banjari, Banjarmasin, Indonesia
+  - given-names: Deshinta Arrova
+    family-names: Dewi
+    affiliation: Faculty of Data Science and Information Technology, INTI International University, Nilai, Malaysia
+abstract: >-
+  HIES is a heterogeneous imbalance-adaptive ensemble that combines per-base
+  calibrated probabilities via OOF-pruning, per-sample confidence weighting,
+  and threshold tuning on a joint macro-F1 and MCC objective. Fairness is
+  audited through a fixed-weight selection score rather than optimised inside
+  the threshold objective. We benchmark HIES against modern tabular SOTA
+  (TabPFNv2), classical baselines (XGBoost, LightGBM, CatBoost, Random Forest,
+  Extra Trees, Logistic Regression), ensemble baselines (Voting, Stacking,
+  RF-CatBoost Stacking), and a fairness post-processor (Fairlearn Equalized
+  Odds) on three Educational Data Mining datasets: UCI Student Performance,
+  UCI Predict Students' Dropout and Academic Success, and xAPI-Edu-Data.
+keywords:
+  - educational data mining
+  - tabular classification
+  - heterogeneous ensemble
+  - calibration
+  - fairness
+  - imbalance
+  - HIES
+license: MIT
+repository-code: 'https://github.com/undagie/edm-hies-research'
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Muhammad Iqbal
+      family-names: Firdaus
+    - given-names: Muhammad Edya
+      family-names: Rosadi
+    - given-names: Dian
+      family-names: Agustini
+    - given-names: M
+      family-names: Muflih
+    - given-names: Deshinta Arrova
+      family-names: Dewi
+  title: >-
+    Heterogeneous Imbalance-adaptive Ensemble for Robust Prediction of Students
+    at Risk on Tabular Educational Data
+  year: 2026
+  journal: International Journal of Intelligent Engineering and Systems
+  volume: 19
+  issue: 10
+  doi: 10.22266/ijies2026.1031.08
+  url: 'https://inass.org/wp-content/uploads/2026/06/2026103108-2.pdf'

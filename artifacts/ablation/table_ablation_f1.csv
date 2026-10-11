@@ -1,0 +1,7 @@
+variant,uci_dropout_success,uci_student,xapi
+full,0.8545,0.9094,0.9161
+no_calibration,0.8553,0.9074,0.9089
+no_per_sample,0.8538,0.9088,0.9163
+no_pruning,0.8549,0.9094,0.9161
+no_threshold,0.8552,0.9089,0.9171
+stacked,0.854,0.9086,0.9109

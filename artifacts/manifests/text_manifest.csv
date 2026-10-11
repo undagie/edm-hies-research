@@ -1,0 +1,3 @@
+id_teks,section_paper_target,source_metrics,output_path
+text_1,Results,artifacts/results/results_summary.csv,artifacts/text/result_narrative_20260512T232607Z_bd43fb71.md
+text_2,Results,artifacts/results/results_summary.csv,artifacts/text/method_notes_20260512T232607Z_bd43fb71.md

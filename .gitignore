@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Claude scratch
+.claude/
+
+# MLflow local stores (regenerated per run)
+mlruns/
+artifacts/mlflow.db
+
+# Scratch / dev-only artifacts (anything prefixed with `_`)
+artifacts/_*
+
+# Raw datasets are NOT redistributed here: download them from the original
+# sources (see DATASETS.md) and verify against the SHA-256 checksums in
+# artifacts/manifests/PROVENANCE.md.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/interim/
+
+# Pre-merge backups and superseded figure variants (regenerable)
+*.pre_stack_rfcat.bak
+artifacts/phase1_analysis/shap_top15_uci_dropout.*
+
+# Run-specific large outputs (kept directory, ignored heavy logs)
+artifacts/logs/
+
+# Manuscript sources, submissions, and review correspondence (not distributed)
+paper/
+draft_paper/
+
+# Side-run output roots (merged into artifacts/ by scripts/merge_stacking_rf_cat.py)
+artifacts_smoke/
+artifacts_stack_rfcat/
+
+# Word lock/temp files
+~$*
+*.tmp
+
+# Superseded ablation run kept locally for provenance (variant toggles were
+# inert under the shipped config; see run_ablation.py history)
+artifacts/ablation_full_notuning/

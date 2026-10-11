@@ -1,0 +1,186 @@
+uci_student            seed= 11 fold=0 thr_int=0.40 thr_run=0.40 abl=0.889356/0.889356 OK main=0.889356/0.889356 OK
+uci_student            seed= 11 fold=1 thr_int=0.40 thr_run=0.40 abl=0.929021/0.929021 OK main=0.929021/0.929021 OK
+uci_student            seed= 11 fold=2 thr_int=0.40 thr_run=0.40 abl=0.900629/0.900629 OK main=0.900629/0.900629 OK
+uci_student            seed= 11 fold=3 thr_int=0.40 thr_run=0.45 abl=0.957412/0.957412 OK main=0.957412/0.957412 OK
+uci_student            seed= 11 fold=4 thr_int=0.45 thr_run=0.40 abl=0.900629/0.900629 OK main=0.900629/0.900629 OK
+uci_student            seed= 22 fold=0 thr_int=0.55 thr_run=0.40 abl=0.902383/0.902383 OK main=0.917017/0.917017 OK
+uci_student            seed= 22 fold=1 thr_int=0.43 thr_run=0.50 abl=0.898662/0.898662 OK main=0.898662/0.898662 OK
+uci_student            seed= 22 fold=2 thr_int=0.43 thr_run=0.45 abl=0.917017/0.917017 OK main=0.917017/0.917017 OK
+uci_student            seed= 22 fold=3 thr_int=0.40 thr_run=0.55 abl=0.896461/0.896461 OK main=0.910227/0.910227 OK
+uci_student            seed= 22 fold=4 thr_int=0.53 thr_run=0.55 abl=0.930274/0.930274 OK main=0.915598/0.915598 OK
+uci_student            seed= 33 fold=0 thr_int=0.55 thr_run=0.40 abl=0.926044/0.926044 OK main=0.927616/0.927616 OK
+uci_student            seed= 33 fold=1 thr_int=0.40 thr_run=0.40 abl=0.943732/0.943732 OK main=0.943732/0.943732 OK
+uci_student            seed= 33 fold=2 thr_int=0.40 thr_run=0.40 abl=0.930274/0.930274 OK main=0.930274/0.930274 OK
+uci_student            seed= 33 fold=3 thr_int=0.40 thr_run=0.40 abl=0.914006/0.914006 OK main=0.914006/0.914006 OK
+uci_student            seed= 33 fold=4 thr_int=0.40 thr_run=0.40 abl=0.849053/0.849053 OK main=0.849053/0.849053 OK
+uci_student            seed= 44 fold=0 thr_int=0.55 thr_run=0.40 abl=0.887464/0.887464 OK main=0.902383/0.902383 OK
+uci_student            seed= 44 fold=1 thr_int=0.40 thr_run=0.40 abl=0.876498/0.876498 OK main=0.876498/0.876498 OK
+uci_student            seed= 44 fold=2 thr_int=0.40 thr_run=0.40 abl=0.957412/0.957412 OK main=0.957412/0.957412 OK
+uci_student            seed= 44 fold=3 thr_int=0.45 thr_run=0.50 abl=0.882963/0.882963 OK main=0.882963/0.882963 OK
+uci_student            seed= 44 fold=4 thr_int=0.50 thr_run=0.55 abl=0.914006/0.914006 OK main=0.927616/0.927616 OK
+uci_student            seed= 55 fold=0 thr_int=0.40 thr_run=0.40 abl=0.900629/0.900629 OK main=0.900629/0.900629 OK
+uci_student            seed= 55 fold=1 thr_int=0.47 thr_run=0.50 abl=0.931388/0.931388 OK main=0.931388/0.931388 OK
+uci_student            seed= 55 fold=2 thr_int=0.40 thr_run=0.40 abl=0.889356/0.889356 OK main=0.889356/0.889356 OK
+uci_student            seed= 55 fold=3 thr_int=0.55 thr_run=0.50 abl=0.929021/0.929021 OK main=0.915598/0.915598 OK
+uci_student            seed= 55 fold=4 thr_int=0.53 thr_run=0.40 abl=0.882963/0.882963 OK main=0.898662/0.898662 OK
+uci_student            seed= 66 fold=0 thr_int=0.43 thr_run=0.40 abl=0.831197/0.831197 OK main=0.831197/0.831197 OK
+uci_student            seed= 66 fold=1 thr_int=0.55 thr_run=0.40 abl=0.942671/0.942671 OK main=0.957412/0.957412 OK
+uci_student            seed= 66 fold=2 thr_int=0.40 thr_run=0.40 abl=0.874492/0.874492 OK main=0.874492/0.874492 OK
+uci_student            seed= 66 fold=3 thr_int=0.47 thr_run=0.40 abl=0.900629/0.900629 OK main=0.900629/0.900629 OK
+uci_student            seed= 66 fold=4 thr_int=0.40 thr_run=0.50 abl=0.930274/0.930274 OK main=0.957412/0.957412 OK
+uci_student            seed= 77 fold=0 thr_int=0.40 thr_run=0.40 abl=0.863793/0.863793 OK main=0.863793/0.863793 OK
+uci_student            seed= 77 fold=1 thr_int=0.40 thr_run=0.50 abl=0.912222/0.912222 OK main=0.912222/0.912222 OK
+uci_student            seed= 77 fold=2 thr_int=0.40 thr_run=0.40 abl=0.957412/0.957412 OK main=0.957412/0.957412 OK
+uci_student            seed= 77 fold=3 thr_int=0.55 thr_run=0.55 abl=0.894000/0.894000 OK main=0.894000/0.894000 OK
+uci_student            seed= 77 fold=4 thr_int=0.40 thr_run=0.50 abl=0.930274/0.930274 OK main=0.930274/0.930274 OK
+uci_student            seed= 88 fold=0 thr_int=0.45 thr_run=0.50 abl=0.869709/0.869709 OK main=0.869709/0.869709 OK
+uci_student            seed= 88 fold=1 thr_int=0.43 thr_run=0.45 abl=0.874492/0.874492 OK main=0.874492/0.874492 OK
+uci_student            seed= 88 fold=2 thr_int=0.55 thr_run=0.40 abl=0.914006/0.914006 OK main=0.929021/0.929021 OK
+uci_student            seed= 88 fold=3 thr_int=0.55 thr_run=0.40 abl=0.957412/0.957412 OK main=0.958164/0.958164 OK
+uci_student            seed= 88 fold=4 thr_int=0.40 thr_run=0.40 abl=0.943732/0.943732 OK main=0.943732/0.943732 OK
+uci_student            seed= 99 fold=0 thr_int=0.55 thr_run=0.40 abl=0.902383/0.902383 OK main=0.902383/0.902383 OK
+uci_student            seed= 99 fold=1 thr_int=0.43 thr_run=0.40 abl=0.929021/0.929021 OK main=0.902383/0.902383 OK
+uci_student            seed= 99 fold=2 thr_int=0.47 thr_run=0.40 abl=0.957412/0.957412 OK main=0.957412/0.957412 OK
+uci_student            seed= 99 fold=3 thr_int=0.40 thr_run=0.50 abl=0.853704/0.853704 OK main=0.853704/0.853704 OK
+uci_student            seed= 99 fold=4 thr_int=0.43 thr_run=0.40 abl=0.944678/0.944678 OK main=0.944678/0.944678 OK
+uci_student            seed=110 fold=0 thr_int=0.43 thr_run=0.50 abl=0.859330/0.859330 OK main=0.859330/0.859330 OK
+uci_student            seed=110 fold=1 thr_int=0.40 thr_run=0.50 abl=0.929021/0.929021 OK main=0.914006/0.914006 OK
+uci_student            seed=110 fold=2 thr_int=0.43 thr_run=0.50 abl=0.930274/0.930274 OK main=0.930274/0.930274 OK
+uci_student            seed=110 fold=3 thr_int=0.43 thr_run=0.40 abl=0.927616/0.927616 OK main=0.927616/0.927616 OK
+uci_student            seed=110 fold=4 thr_int=0.45 thr_run=0.40 abl=0.930274/0.930274 OK main=0.917017/0.917017 OK
+uci_student            seed=121 fold=0 thr_int=0.43 thr_run=0.40 abl=0.887464/0.887464 OK main=0.887464/0.887464 OK
+uci_student            seed=121 fold=1 thr_int=0.55 thr_run=0.40 abl=0.918276/0.918276 OK main=0.892517/0.892517 OK
+uci_student            seed=121 fold=2 thr_int=0.45 thr_run=0.40 abl=0.874492/0.874492 OK main=0.874492/0.874492 OK
+uci_student            seed=121 fold=3 thr_int=0.50 thr_run=0.55 abl=0.956570/0.956570 OK main=0.956570/0.956570 OK
+uci_student            seed=121 fold=4 thr_int=0.43 thr_run=0.40 abl=0.926044/0.926044 OK main=0.926044/0.926044 OK
+uci_student            seed=132 fold=0 thr_int=0.40 thr_run=0.40 abl=0.926044/0.926044 OK main=0.926044/0.926044 OK
+uci_student            seed=132 fold=1 thr_int=0.43 thr_run=0.40 abl=0.900629/0.900629 OK main=0.900629/0.900629 OK
+uci_student            seed=132 fold=2 thr_int=0.53 thr_run=0.40 abl=0.887464/0.887464 OK main=0.889356/0.889356 OK
+uci_student            seed=132 fold=3 thr_int=0.55 thr_run=0.55 abl=0.930274/0.930274 OK main=0.930274/0.930274 OK
+uci_student            seed=132 fold=4 thr_int=0.40 thr_run=0.50 abl=0.861695/0.861695 OK main=0.861695/0.861695 OK
+xapi                   seed= 11 fold=0 thr_int=0.50 thr_run=0.40 abl=0.908782/0.908782 OK main=0.910816/0.910816 OK
+xapi                   seed= 11 fold=1 thr_int=0.50 thr_run=0.55 abl=0.929567/0.929567 OK main=0.929567/0.929567 OK
+xapi                   seed= 11 fold=2 thr_int=0.53 thr_run=0.40 abl=0.916667/0.916667 OK main=0.945915/0.945915 OK
+xapi                   seed= 11 fold=3 thr_int=0.53 thr_run=0.55 abl=0.918873/0.918873 OK main=0.918873/0.918873 OK
+xapi                   seed= 11 fold=4 thr_int=0.40 thr_run=0.40 abl=0.908782/0.908782 OK main=0.908782/0.908782 OK
+xapi                   seed= 22 fold=0 thr_int=0.50 thr_run=0.40 abl=0.901394/0.901394 OK main=0.901394/0.901394 OK
+xapi                   seed= 22 fold=1 thr_int=0.40 thr_run=0.55 abl=0.837746/0.837746 OK main=0.833333/0.833333 OK
+xapi                   seed= 22 fold=2 thr_int=0.50 thr_run=0.40 abl=0.916667/0.916667 OK main=0.945915/0.945915 OK
+xapi                   seed= 22 fold=3 thr_int=0.55 thr_run=0.55 abl=0.973626/0.973626 OK main=0.973626/0.973626 OK
+xapi                   seed= 22 fold=4 thr_int=0.43 thr_run=0.40 abl=0.961778/0.961778 OK main=0.961778/0.961778 OK
+xapi                   seed= 33 fold=0 thr_int=0.45 thr_run=0.40 abl=0.958898/0.958898 OK main=0.972958/0.972958 OK
+xapi                   seed= 33 fold=1 thr_int=0.50 thr_run=0.50 abl=0.958898/0.958898 OK main=0.958898/0.958898 OK
+xapi                   seed= 33 fold=2 thr_int=0.45 thr_run=0.40 abl=0.918873/0.918873 OK main=0.933250/0.933250 OK
+xapi                   seed= 33 fold=3 thr_int=0.55 thr_run=0.55 abl=0.830596/0.830596 OK main=0.830596/0.830596 OK
+xapi                   seed= 33 fold=4 thr_int=0.47 thr_run=0.40 abl=0.891831/0.891831 OK main=0.891831/0.891831 OK
+xapi                   seed= 44 fold=0 thr_int=0.47 thr_run=0.45 abl=0.933250/0.933250 OK main=0.933250/0.933250 OK
+xapi                   seed= 44 fold=1 thr_int=0.55 thr_run=0.45 abl=0.873221/0.873221 OK main=0.873221/0.873221 OK
+xapi                   seed= 44 fold=2 thr_int=0.55 thr_run=0.40 abl=0.947253/0.947253 OK main=0.934845/0.934845 OK
+xapi                   seed= 44 fold=3 thr_int=0.40 thr_run=0.40 abl=0.859854/0.859854 OK main=0.859854/0.859854 OK
+xapi                   seed= 44 fold=4 thr_int=0.40 thr_run=0.40 abl=0.958898/0.958898 OK main=0.958898/0.958898 OK
+xapi                   seed= 55 fold=0 thr_int=0.47 thr_run=0.45 abl=0.920879/0.920879 OK main=0.920879/0.920879 OK
+xapi                   seed= 55 fold=1 thr_int=0.40 thr_run=0.40 abl=0.894505/0.894505 OK main=0.894505/0.894505 OK
+xapi                   seed= 55 fold=2 thr_int=0.50 thr_run=0.50 abl=0.972958/0.972958 OK main=0.972958/0.972958 OK
+xapi                   seed= 55 fold=3 thr_int=0.55 thr_run=0.40 abl=0.882720/0.882720 OK main=0.871176/0.871176 OK
+xapi                   seed= 55 fold=4 thr_int=0.55 thr_run=0.55 abl=0.876695/0.876695 OK main=0.876695/0.876695 OK
+xapi                   seed= 66 fold=0 thr_int=0.40 thr_run=0.50 abl=0.931497/0.931497 OK main=0.931497/0.931497 OK
+xapi                   seed= 66 fold=1 thr_int=0.45 thr_run=0.40 abl=0.891831/0.891831 OK main=0.891831/0.891831 OK
+xapi                   seed= 66 fold=2 thr_int=0.43 thr_run=0.40 abl=0.894505/0.894505 OK main=0.894505/0.894505 OK
+xapi                   seed= 66 fold=3 thr_int=0.43 thr_run=0.55 abl=0.906550/0.906550 OK main=0.916667/0.916667 OK
+xapi                   seed= 66 fold=4 thr_int=0.40 thr_run=0.40 abl=0.918873/0.918873 OK main=0.918873/0.918873 OK
+xapi                   seed= 77 fold=0 thr_int=0.43 thr_run=0.55 abl=0.922705/0.922705 OK main=0.934845/0.934845 OK
+xapi                   seed= 77 fold=1 thr_int=0.55 thr_run=0.40 abl=0.868132/0.868132 OK main=0.871176/0.871176 OK
+xapi                   seed= 77 fold=2 thr_int=0.53 thr_run=0.50 abl=0.931497/0.931497 OK main=0.931497/0.931497 OK
+xapi                   seed= 77 fold=3 thr_int=0.55 thr_run=0.50 abl=0.929567/0.929567 OK main=0.929567/0.929567 OK
+xapi                   seed= 77 fold=4 thr_int=0.47 thr_run=0.40 abl=0.947253/0.947253 OK main=0.947253/0.947253 OK
+xapi                   seed= 88 fold=0 thr_int=0.45 thr_run=0.40 abl=0.918873/0.918873 OK main=0.918873/0.918873 OK
+xapi                   seed= 88 fold=1 thr_int=0.55 thr_run=0.40 abl=0.931497/0.931497 OK main=0.906550/0.906550 OK
+xapi                   seed= 88 fold=2 thr_int=0.40 thr_run=0.55 abl=0.904096/0.904096 OK main=0.885646/0.885646 OK
+xapi                   seed= 88 fold=3 thr_int=0.50 thr_run=0.55 abl=0.934845/0.934845 OK main=0.934845/0.934845 OK
+xapi                   seed= 88 fold=4 thr_int=0.50 thr_run=0.40 abl=0.933250/0.933250 OK main=0.908782/0.908782 OK
+xapi                   seed= 99 fold=0 thr_int=0.45 thr_run=0.50 abl=0.947253/0.947253 OK main=0.947253/0.947253 OK
+xapi                   seed= 99 fold=1 thr_int=0.53 thr_run=0.40 abl=0.916667/0.916667 OK main=0.916667/0.916667 OK
+xapi                   seed= 99 fold=2 thr_int=0.40 thr_run=0.55 abl=0.833333/0.833333 OK main=0.845048/0.845048 OK
+xapi                   seed= 99 fold=3 thr_int=0.50 thr_run=0.45 abl=0.972958/0.972958 OK main=0.959950/0.959950 OK
+xapi                   seed= 99 fold=4 thr_int=0.50 thr_run=0.50 abl=0.908782/0.908782 OK main=0.908782/0.908782 OK
+xapi                   seed=110 fold=0 thr_int=0.55 thr_run=0.45 abl=0.888889/0.888889 OK main=0.876695/0.876695 OK
+xapi                   seed=110 fold=1 thr_int=0.40 thr_run=0.55 abl=0.922705/0.922705 OK main=0.934845/0.934845 OK
+xapi                   seed=110 fold=2 thr_int=0.45 thr_run=0.55 abl=0.947253/0.947253 OK main=0.933250/0.933250 OK
+xapi                   seed=110 fold=3 thr_int=0.55 thr_run=0.40 abl=0.931497/0.931497 OK main=0.918873/0.918873 OK
+xapi                   seed=110 fold=4 thr_int=0.53 thr_run=0.50 abl=0.918873/0.918873 OK main=0.918873/0.918873 OK
+xapi                   seed=121 fold=0 thr_int=0.40 thr_run=0.40 abl=0.933250/0.933250 OK main=0.933250/0.933250 OK
+xapi                   seed=121 fold=1 thr_int=0.55 thr_run=0.55 abl=0.916667/0.916667 OK main=0.916667/0.916667 OK
+xapi                   seed=121 fold=2 thr_int=0.47 thr_run=0.40 abl=0.906550/0.906550 OK main=0.894505/0.894505 OK
+xapi                   seed=121 fold=3 thr_int=0.40 thr_run=0.45 abl=0.859854/0.859854 OK main=0.871176/0.871176 OK
+xapi                   seed=121 fold=4 thr_int=0.40 thr_run=0.45 abl=0.918873/0.918873 OK main=0.918873/0.918873 OK
+xapi                   seed=132 fold=0 thr_int=0.53 thr_run=0.45 abl=0.945915/0.945915 OK main=0.945915/0.945915 OK
+xapi                   seed=132 fold=1 thr_int=0.40 thr_run=0.50 abl=0.882720/0.882720 OK main=0.894505/0.894505 OK
+xapi                   seed=132 fold=2 thr_int=0.40 thr_run=0.40 abl=0.918873/0.918873 OK main=0.918873/0.918873 OK
+xapi                   seed=132 fold=3 thr_int=0.43 thr_run=0.40 abl=0.918873/0.918873 OK main=0.906550/0.906550 OK
+xapi                   seed=132 fold=4 thr_int=0.50 thr_run=0.55 abl=0.959950/0.959950 OK main=0.945915/0.945915 OK
+uci_dropout_success    seed= 11 fold=0 thr_int=0.43 thr_run=0.45 abl=0.864717/0.864717 OK main=0.861744/0.861744 OK
+uci_dropout_success    seed= 11 fold=1 thr_int=0.57 thr_run=0.50 abl=0.862018/0.862018 OK main=0.859340/0.859340 OK
+uci_dropout_success    seed= 11 fold=2 thr_int=0.50 thr_run=0.40 abl=0.854878/0.854878 OK main=0.855492/0.855492 OK
+uci_dropout_success    seed= 11 fold=3 thr_int=0.57 thr_run=0.50 abl=0.848851/0.848851 OK main=0.849503/0.849503 OK
+uci_dropout_success    seed= 11 fold=4 thr_int=0.43 thr_run=0.55 abl=0.853360/0.853360 OK main=0.856566/0.856566 OK
+uci_dropout_success    seed= 22 fold=0 thr_int=0.57 thr_run=0.55 abl=0.876787/0.876787 OK main=0.881240/0.881240 OK
+uci_dropout_success    seed= 22 fold=1 thr_int=0.57 thr_run=0.40 abl=0.865338/0.865338 OK main=0.862464/0.862464 OK
+uci_dropout_success    seed= 22 fold=2 thr_int=0.43 thr_run=0.50 abl=0.846074/0.846074 OK main=0.835712/0.835712 OK
+uci_dropout_success    seed= 22 fold=3 thr_int=0.54 thr_run=0.50 abl=0.833936/0.833936 OK main=0.836981/0.836981 OK
+uci_dropout_success    seed= 22 fold=4 thr_int=0.54 thr_run=0.55 abl=0.843716/0.843716 OK main=0.843716/0.843716 OK
+uci_dropout_success    seed= 33 fold=0 thr_int=0.54 thr_run=0.40 abl=0.853059/0.853059 OK main=0.859571/0.859571 OK
+uci_dropout_success    seed= 33 fold=1 thr_int=0.57 thr_run=0.55 abl=0.848186/0.848186 OK main=0.852739/0.852739 OK
+uci_dropout_success    seed= 33 fold=2 thr_int=0.54 thr_run=0.45 abl=0.853376/0.853376 OK main=0.849901/0.849901 OK
+uci_dropout_success    seed= 33 fold=3 thr_int=0.43 thr_run=0.50 abl=0.859951/0.859951 OK main=0.852622/0.852622 OK
+uci_dropout_success    seed= 33 fold=4 thr_int=0.50 thr_run=0.40 abl=0.858689/0.858689 OK main=0.856872/0.856872 OK
+uci_dropout_success    seed= 44 fold=0 thr_int=0.50 thr_run=0.50 abl=0.850768/0.850768 OK main=0.850768/0.850768 OK
+uci_dropout_success    seed= 44 fold=1 thr_int=0.50 thr_run=0.40 abl=0.855187/0.855187 OK main=0.858119/0.858119 OK
+uci_dropout_success    seed= 44 fold=2 thr_int=0.57 thr_run=0.55 abl=0.865658/0.865658 OK main=0.870160/0.870160 OK
+uci_dropout_success    seed= 44 fold=3 thr_int=0.50 thr_run=0.55 abl=0.850456/0.850456 OK main=0.853690/0.853690 OK
+uci_dropout_success    seed= 44 fold=4 thr_int=0.50 thr_run=0.40 abl=0.840908/0.840908 OK main=0.848028/0.848028 OK
+uci_dropout_success    seed= 55 fold=0 thr_int=0.43 thr_run=0.40 abl=0.814166/0.814166 OK main=0.816497/0.816497 OK
+uci_dropout_success    seed= 55 fold=1 thr_int=0.57 thr_run=0.40 abl=0.855223/0.855223 OK main=0.868874/0.868874 OK
+uci_dropout_success    seed= 55 fold=2 thr_int=0.46 thr_run=0.55 abl=0.876720/0.876720 OK main=0.876377/0.876377 OK
+uci_dropout_success    seed= 55 fold=3 thr_int=0.43 thr_run=0.55 abl=0.851696/0.851696 OK main=0.854309/0.854309 OK
+uci_dropout_success    seed= 55 fold=4 thr_int=0.50 thr_run=0.40 abl=0.871487/0.871487 OK main=0.866587/0.866587 OK
+uci_dropout_success    seed= 66 fold=0 thr_int=0.43 thr_run=0.50 abl=0.860911/0.860911 OK main=0.856664/0.856664 OK
+uci_dropout_success    seed= 66 fold=1 thr_int=0.50 thr_run=0.55 abl=0.875842/0.875842 OK main=0.875679/0.875679 OK
+uci_dropout_success    seed= 66 fold=2 thr_int=0.43 thr_run=0.45 abl=0.838943/0.838943 OK main=0.840943/0.840943 OK
+uci_dropout_success    seed= 66 fold=3 thr_int=0.46 thr_run=0.45 abl=0.848851/0.848851 OK main=0.852190/0.852190 OK
+uci_dropout_success    seed= 66 fold=4 thr_int=0.54 thr_run=0.40 abl=0.858650/0.858650 OK main=0.867887/0.867887 OK
+uci_dropout_success    seed= 77 fold=0 thr_int=0.43 thr_run=0.45 abl=0.848186/0.848186 OK main=0.847849/0.847849 OK
+uci_dropout_success    seed= 77 fold=1 thr_int=0.46 thr_run=0.45 abl=0.860845/0.860845 OK main=0.862346/0.862346 OK
+uci_dropout_success    seed= 77 fold=2 thr_int=0.54 thr_run=0.55 abl=0.843792/0.843792 OK main=0.843792/0.843792 OK
+uci_dropout_success    seed= 77 fold=3 thr_int=0.57 thr_run=0.55 abl=0.855797/0.855797 OK main=0.855797/0.855797 OK
+uci_dropout_success    seed= 77 fold=4 thr_int=0.54 thr_run=0.45 abl=0.863165/0.863165 OK main=0.865131/0.865131 OK
+uci_dropout_success    seed= 88 fold=0 thr_int=0.50 thr_run=0.40 abl=0.851110/0.851110 OK main=0.843866/0.843866 OK
+uci_dropout_success    seed= 88 fold=1 thr_int=0.46 thr_run=0.45 abl=0.850686/0.850686 OK main=0.852190/0.852190 OK
+uci_dropout_success    seed= 88 fold=2 thr_int=0.54 thr_run=0.45 abl=0.855123/0.855123 OK main=0.860551/0.860551 OK
+uci_dropout_success    seed= 88 fold=3 thr_int=0.57 thr_run=0.55 abl=0.847660/0.847660 OK main=0.853821/0.853821 OK
+uci_dropout_success    seed= 88 fold=4 thr_int=0.43 thr_run=0.50 abl=0.869748/0.869748 OK main=0.871871/0.871871 OK
+uci_dropout_success    seed= 99 fold=0 thr_int=0.57 thr_run=0.45 abl=0.861433/0.861433 OK main=0.865002/0.865002 OK
+uci_dropout_success    seed= 99 fold=1 thr_int=0.54 thr_run=0.50 abl=0.836882/0.836882 OK main=0.840267/0.840267 OK
+uci_dropout_success    seed= 99 fold=2 thr_int=0.57 thr_run=0.45 abl=0.877589/0.877589 OK main=0.868107/0.868107 OK
+uci_dropout_success    seed= 99 fold=3 thr_int=0.46 thr_run=0.40 abl=0.856982/0.856982 OK main=0.854627/0.854627 OK
+uci_dropout_success    seed= 99 fold=4 thr_int=0.54 thr_run=0.45 abl=0.849636/0.849636 OK main=0.843539/0.843539 OK
+uci_dropout_success    seed=110 fold=0 thr_int=0.57 thr_run=0.40 abl=0.857431/0.857431 OK main=0.858170/0.858170 OK
+uci_dropout_success    seed=110 fold=1 thr_int=0.57 thr_run=0.45 abl=0.858397/0.858397 OK main=0.866855/0.866855 OK
+uci_dropout_success    seed=110 fold=2 thr_int=0.46 thr_run=0.50 abl=0.839437/0.839437 OK main=0.840607/0.840607 OK
+uci_dropout_success    seed=110 fold=3 thr_int=0.57 thr_run=0.45 abl=0.848996/0.848996 OK main=0.852089/0.852089 OK
+uci_dropout_success    seed=110 fold=4 thr_int=0.46 thr_run=0.55 abl=0.857799/0.857799 OK main=0.850495/0.850495 OK
+uci_dropout_success    seed=121 fold=0 thr_int=0.50 thr_run=0.45 abl=0.871653/0.871653 OK main=0.872482/0.872482 OK
+uci_dropout_success    seed=121 fold=1 thr_int=0.54 thr_run=0.40 abl=0.840405/0.840405 OK main=0.837780/0.837780 OK
+uci_dropout_success    seed=121 fold=2 thr_int=0.46 thr_run=0.45 abl=0.869032/0.869032 OK main=0.869296/0.869296 OK
+uci_dropout_success    seed=121 fold=3 thr_int=0.46 thr_run=0.45 abl=0.853433/0.853433 OK main=0.853736/0.853736 OK
+uci_dropout_success    seed=121 fold=4 thr_int=0.46 thr_run=0.50 abl=0.839695/0.839695 OK main=0.843377/0.843377 OK
+uci_dropout_success    seed=132 fold=0 thr_int=0.43 thr_run=0.50 abl=0.861374/0.861374 OK main=0.862617/0.862617 OK
+uci_dropout_success    seed=132 fold=1 thr_int=0.57 thr_run=0.55 abl=0.849708/0.849708 OK main=0.854690/0.854690 OK
+uci_dropout_success    seed=132 fold=2 thr_int=0.46 thr_run=0.50 abl=0.846929/0.846929 OK main=0.838753/0.838753 OK
+uci_dropout_success    seed=132 fold=3 thr_int=0.57 thr_run=0.45 abl=0.843110/0.843110 OK main=0.839775/0.839775 OK
+uci_dropout_success    seed=132 fold=4 thr_int=0.57 thr_run=0.45 abl=0.866413/0.866413 OK main=0.871353/0.871353 OK
+
+=== summary ===
+uci_dropout_success    n= 60 reproduces ablation full: 60/60 reproduces main HIES: 60/60 mean f1 internal=0.8545 runner=0.8552 (ablation 0.8545, main 0.8552)
+uci_student            n= 60 reproduces ablation full: 60/60 reproduces main HIES: 60/60 mean f1 internal=0.9094 runner=0.9098 (ablation 0.9094, main 0.9098)
+xapi                   n= 60 reproduces ablation full: 60/60 reproduces main HIES: 60/60 mean f1 internal=0.9161 runner=0.9157 (ablation 0.9161, main 0.9157)
+TOTAL n=180 ablation 180/180 main 180/180

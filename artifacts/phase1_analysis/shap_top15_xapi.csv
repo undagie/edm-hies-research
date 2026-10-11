@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+cat__StudentAbsenceDays_Above-7,1.4984993
+num__VisITedResources_x_AnnouncementsView,1.2712566
+num__VisITedResources,0.66650695
+num__raisedhands_x_AnnouncementsView,0.61938757
+cat__ParentAnsweringSurvey_No,0.34338453
+num__raisedhands_x_Discussion,0.31753263
+num__Discussion,0.31364924
+cat__ParentschoolSatisfaction_Bad,0.3114229
+cat__NationalITy_KW,0.2916058
+num__raisedhands_x_VisITedResources,0.21412034
+num__AnnouncementsView,0.18111475
+cat__PlaceofBirth_KuwaIT,0.17563581
+cat__StudentAbsenceDays_Under-7,0.1408305
+cat__Semester_F,0.13359196
+cat__GradeID_G-02,0.10743704

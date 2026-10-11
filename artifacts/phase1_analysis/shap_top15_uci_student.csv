@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+num__G2,3.23899
+num__G1,0.8935759
+num__absences,0.36134627
+num__age_x_Fedu,0.30658627
+num__age_x_traveltime,0.30570665
+num__Walc,0.30201766
+num__goout,0.20656627
+num__age_x_Medu,0.16070752
+cat__romantic_no,0.15980701
+cat__reason_course,0.14400789
+num__famrel,0.10522933
+cat__Fjob_other,0.104602076
+cat__activities_no,0.10430153
+num__age_x_studytime,0.08862227
+num__age,0.074719295
